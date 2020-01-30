@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body oncontextmenu="return false;">
+    <video oncontextmenu="return false;"  controls width="500">
+        <source src="v/video.mp4" >
+      </video>
+</body>
+
+<script>
+var devtools = function(){};
+devtools.toString = function() {
+  this.opened = true;
+  window.open('', '_self', '').close();
+}
+
+console.log('%c', devtools);
+
+
+</script>
+</html>
