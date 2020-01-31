@@ -1,6 +1,6 @@
 #Contents of .htaccess
 
 RewriteEngine on
-RewriteCond %{HTTP_REFERER} !^http://schirrel.github.io/webtest/.*$ [NC]
-RewriteCond %{HTTP_REFERER} !^http://schirrel.github.io/webtest/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://schio.ninja/webtest/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^Request URL: http://schio.ninja/webtest/.*$ [NC]
 RewriteRule .(mp4|mp3|avi)$ - [F]
